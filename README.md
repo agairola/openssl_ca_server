@@ -109,4 +109,3 @@ openssl crl -in binary.crl -inform DER -out crl.pem
 
 ~/demoCA $ openssl asn1parse -inform pem -in cacert.pem -i
 
-
