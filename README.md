@@ -1,6 +1,5 @@
 # openssl_ca_server
 
-
 1) Generate rsa key pair
 
 openssl genrsa -out keys/hostA.key 1024
@@ -108,4 +107,6 @@ openssl crl -in binary.crl -inform DER -out crl.pem
  openssl s_client -connect servername:443
 
 ~/demoCA $ openssl asn1parse -inform pem -in cacert.pem -i
+
+
 
